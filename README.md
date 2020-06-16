@@ -4,8 +4,9 @@ Exploring speed advantages realized by using the Dask library over Pandas for da
 > i7 PC
 * CPU
     - Calculating the mean of randomly generated stock prices across 1M rows is about 17.6\% slower for 100K iterations, with Dask.
-    - Filtering across the same dataset is about 95\% faster for 100K iterations, with Dask.
-    - Adding together 5 copies of the dataset for 10K iterations is about 95\% faster, with Dask.
+    - Filtering across the same dataset is about 96\% faster for 100K iterations, with Dask.
+    - Adding together 5 copies of the dataset for 10K iterations is about 95\% faster, with Dask--just over 3 minutes, as opposed to more than an hour with pandas.
+        - Adding dataframes for 100K iterations with Dask completed in *** minutes.
 * ...On GPU
 
 > Containerized
