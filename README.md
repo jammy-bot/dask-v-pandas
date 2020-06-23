@@ -1,7 +1,7 @@
-# Computation acceleration with Dask vs Pandas 
+# Computation Acceleration with Dask vs Pandas 
 Exploring speed advantages realized by using the Dask library over Pandas for dataframe operations in Python.
 
-![image description](images/image.png)Inverse mask of bicycle in test image
+![image description](images/image.png)~~~~~~~~~~~~~~~~ image
 
 ## Introduction
 Dask is a framework that enables Pandas, Scikit-Learn, and Numpy to scale beyond a single machine to work over multiple clusters, while using a familiar API. At the same time, Dask facilitatates rapid, parallel computation on single - machine CPUs.  
