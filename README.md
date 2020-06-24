@@ -1,7 +1,7 @@
 # Computation Acceleration with Dask vs Pandas
 Exploring speed advantages realized by using the Dask library over Pandas for dataframe operations in Python.
 
-<img src="https://github.com/jammy-bot/dask-v-pandas/blob/master/images/panda-306265_1280.png" width="365" height="448" title="Github Logo">
+<img src="https://github.com/jammy-bot/dask-v-pandas/blob/master/images/panda-306265_1280.png" width="365" height="448" title="Two pandas, one large, one small">
 
 ## Introduction
 Dask is a framework that enables Pandas, Scikit-Learn, and Numpy to scale beyond a single machine to work over multiple clusters, while using a familiar API. At the same time, Dask facilitatates rapid, parallel computation on single - machine CPUs.  
@@ -17,7 +17,7 @@ I performed the same operations on each dataframe and compared their computation
 
 ## Results
 
-![notebook code image showing dask and pandas computation speeds](".\images\filtering.jpg")
+<img src="https://github.com/jammy-bot/dask-v-pandas/blob/master/images/panda-306265_1280.png" width="365" height="448" title="Notebook code image showing dask and pandas computation speeds">
 
     - Calculating the mean of randomly generated stock prices across 1M rows proved to be about 17.6\% slower for 100K iterations, with Dask.
     - Filtering across the same dataset is about 96\% faster for 100K iterations, with Dask.
