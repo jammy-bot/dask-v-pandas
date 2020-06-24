@@ -17,7 +17,7 @@ I performed the same operations on each dataframe and compared their computation
 
 ## Results
 
-<img src="https://github.com/jammy-bot/dask-v-pandas/blob/master/images/filtering.png" width="365" height="448" title="Notebook code image showing dask and pandas computation speeds">
+<img src="https://github.com/jammy-bot/dask-v-pandas/blob/master/images/filtering.png" title="Notebook code image showing dask and pandas computation speeds">
 
     - Calculating the mean of randomly generated stock prices across 1M rows proved to be about 17.6\% slower for 100K iterations, with Dask.
     - Filtering across the same dataset is about 96\% faster for 100K iterations, with Dask.
